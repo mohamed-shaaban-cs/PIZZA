@@ -46,21 +46,6 @@ This is a **Single Tier Architecture** application:
 * Show pizza details (size, toppings, price)
 * Categorized menu items
 
-### 📋 Order Processing
-
-* Add items to cart
-* View order summary
-* Complete order
-* Order confirmation
-
-### 📊 Order Tracking
-
-* Order selection interface
-* Confirmation screen
-* Order status updates
-
-
-
 ---
 
 ## ⚙️ Installation & Setup
@@ -72,22 +57,6 @@ git clone https://github.com/ss24214859/PIZZA.git
 ```
 
 2️⃣ Open the solution file in Visual Studio.
-
-3️⃣ Setup Database
-
-* Open SQL Server Management Studio.
-* Create a new database.
-* Run the provided SQL script.
-
-4️⃣ Update Connection String
-
-Edit:
-
-```
-App.config
-```
-
-Add your SQL Server connection string.
 
 5️⃣ Run the project.
 
