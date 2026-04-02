@@ -1,0 +1,166 @@
+# PIZZA Ordering System
+
+## 📌 Project Overview
+
+PIZZA Ordering System is a Windows Forms desktop application for managing pizza orders.
+
+The system provides a user-friendly interface for customers to browse menu items, select pizza orders, and track order status from selection to confirmation.
+
+This project was built as part of practical training while studying desktop application development.
+
+---
+
+## 🏗 System Architecture
+
+The project follows a **3-Tier Architecture**:
+
+1. **Presentation Layer**
+
+   * Windows Forms UI
+   * Menu display
+   * Order management interface
+
+2. **Business Logic Layer (BLL)**
+
+   * Order processing
+   * Menu management
+   * Pricing calculations
+   * Order validation
+
+3. **Data Access Layer (DAL)**
+
+   * Database operations
+   * Order storage
+   * Menu data management
+
+---
+
+## 🛠 Technologies Used
+
+* C#
+* .NET Framework – Windows Forms
+* SQL Server
+* ADO.NET
+* Visual Studio
+
+---
+
+## ✨ System Features
+
+### 🍕 Menu Management
+
+* Display available pizza options
+* Show pizza details (size, toppings, price)
+* Categorized menu items
+
+### 📋 Order Processing
+
+* Add items to cart
+* View order summary
+* Complete order
+* Order confirmation
+
+### 📊 Order Tracking
+
+* Order selection interface
+* Confirmation screen
+* Order status updates
+
+---
+
+## 🗄 Database Design
+
+Main Tables:
+
+* **MenuItems**
+
+  * MenuItemID (PK)
+  * ItemName
+  * Description
+  * Price
+  * Category
+  * ImagePath
+
+* **Orders**
+
+  * OrderID (PK)
+  * CustomerName
+  * OrderDate
+  * TotalAmount
+  * Status
+
+* **OrderDetails**
+
+  * OrderDetailID (PK)
+  * OrderID (FK)
+  * MenuItemID (FK)
+  * Quantity
+
+---
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
+```
+
+2️⃣ Open the solution file in Visual Studio.
+
+3️⃣ Setup Database
+
+* Open SQL Server Management Studio.
+* Create a new database.
+* Run the provided SQL script.
+
+4️⃣ Update Connection String
+
+Edit:
+
+```
+App.config
+```
+
+Add your SQL Server connection string.
+
+5️⃣ Run the project.
+
+---
+
+## 📷 Screenshots
+
+### 🍕 Select Order
+
+![SelectOrder](Screenshots/SelectOrder.png)
+
+### ✅ Order Confirmation
+
+![OrderIsConferm](Screenshots/OrderIsConferm.png)
+
+---
+
+## 🚀 Future Enhancements
+
+* User authentication and registration
+* Order history tracking
+* Customer profiles
+* Delivery tracking
+* Payment integration
+* Discount system
+* Review and ratings
+* Multiple locations support
+
+---
+
+## 👨‍💻 Author
+
+**Student**
+
+* GitHub: [https://github.com/ss24214859](https://github.com/ss24214859)
+
+---
+
+## 📜 License
+
+This project is for learning purposes and training.
