@@ -12,26 +12,19 @@ This project was built as part of practical training while studying desktop appl
 
 ## 🏗 System Architecture
 
-The project follows a **3-Tier Architecture**:
-
+This is a **Single Tier Architecture** application:
 1. **Presentation Layer**
-
    * Windows Forms UI
    * Menu display
    * Order management interface
-
-2. **Business Logic Layer (BLL)**
-
+2. **Application Logic**
    * Order processing
    * Menu management
    * Pricing calculations
-   * Order validation
-
-3. **Data Access Layer (DAL)**
-
-   * Database operations
-   * Order storage
-   * Menu data management
+   * Cart management
+3. **Data Storage**
+   * None (client-side application)
+   * In-memory cart data
 
 ---
 
@@ -66,35 +59,7 @@ The project follows a **3-Tier Architecture**:
 * Confirmation screen
 * Order status updates
 
----
 
-## 🗄 Database Design
-
-Main Tables:
-
-* **MenuItems**
-
-  * MenuItemID (PK)
-  * ItemName
-  * Description
-  * Price
-  * Category
-  * ImagePath
-
-* **Orders**
-
-  * OrderID (PK)
-  * CustomerName
-  * OrderDate
-  * TotalAmount
-  * Status
-
-* **OrderDetails**
-
-  * OrderDetailID (PK)
-  * OrderID (FK)
-  * MenuItemID (FK)
-  * Quantity
 
 ---
 
@@ -103,7 +68,7 @@ Main Tables:
 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
+git clone https://github.com/ss24214859/PIZZA.git
 ```
 
 2️⃣ Open the solution file in Visual Studio.
@@ -155,7 +120,7 @@ Add your SQL Server connection string.
 
 ## 👨‍💻 Author
 
-**Student**
+**Mohamed Shaaban**
 
 * GitHub: [https://github.com/ss24214859](https://github.com/ss24214859)
 
