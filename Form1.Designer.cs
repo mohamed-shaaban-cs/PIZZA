@@ -148,7 +148,6 @@
             this.gboxSize.TabIndex = 6;
             this.gboxSize.TabStop = false;
             this.gboxSize.Text = "Size";
-            this.gboxSize.Enter += new System.EventHandler(this.gboxSize_Enter);
             // 
             // gboxCrustType
             // 
@@ -323,7 +322,6 @@
             this.labOrdrerSummary.Size = new System.Drawing.Size(175, 33);
             this.labOrdrerSummary.TabIndex = 9;
             this.labOrdrerSummary.Text = "Order Summary";
-            this.labOrdrerSummary.Click += new System.EventHandler(this.labOrdrerSummary_Click);
             // 
             // labSize
             // 
@@ -371,9 +369,9 @@
             this.labTotalPrice.Font = new System.Drawing.Font("Gabriola", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labTotalPrice.Location = new System.Drawing.Point(557, 640);
             this.labTotalPrice.Name = "labTotalPrice";
-            this.labTotalPrice.Size = new System.Drawing.Size(121, 45);
+            this.labTotalPrice.Size = new System.Drawing.Size(113, 45);
             this.labTotalPrice.TabIndex = 14;
-            this.labTotalPrice.Text = "Total Pricce:";
+            this.labTotalPrice.Text = "Total Price:";
             // 
             // labTotalPriceNum
             // 
@@ -517,8 +515,10 @@
             this.Controls.Add(this.labToppings);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPizza";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

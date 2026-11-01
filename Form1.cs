@@ -227,9 +227,10 @@ namespace PIZZA
             gboxSize.Enabled       = true;
             gboxCrustType.Enabled  = true;
             gboxWhereToEat.Enabled = true;
+            nudTotolNumber.Enabled = true;
 
             //to Rest All Toppings Check Boxs.
-            foreach(Control crtl in gboToppings.Controls) 
+            foreach (Control crtl in gboToppings.Controls) 
             {
                 if(crtl is CheckBox checkbox)
                 {
@@ -242,24 +243,9 @@ namespace PIZZA
 
         }
 
-        private void gboxSize_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             UpdateTotalPrice();
-        }
-
-        private void radioButton7_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
@@ -268,34 +254,5 @@ namespace PIZZA
             
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labOrdrerSummary_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
