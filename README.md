@@ -53,7 +53,7 @@ This is a **Single Tier Architecture** application:
 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/ss24214859/PIZZA.git
+[git clone https://github.com/mohamed-shaaban-cs/PIZZA.git] 
 ```
 
 2️⃣ Open the solution file in Visual Studio.
