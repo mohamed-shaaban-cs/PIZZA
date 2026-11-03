@@ -32,8 +32,6 @@ This is a **Single Tier Architecture** application:
 
 * C#
 * .NET Framework – Windows Forms
-* SQL Server
-* ADO.NET
 * Visual Studio
 
 ---
@@ -71,27 +69,13 @@ This is a **Single Tier Architecture** application:
 ### ✅ Order Confirmation
 
 ![OrderIsConferm](Screenshots/OrderIsConferm.png)
-
----
-
-## 🚀 Future Enhancements
-
-* User authentication and registration
-* Order history tracking
-* Customer profiles
-* Delivery tracking
-* Payment integration
-* Discount system
-* Review and ratings
-* Multiple locations support
-
 ---
 
 ## 👨‍💻 Author
 
 **Mohamed Shaaban**
 
-* GitHub: [https://github.com/ss24214859](https://github.com/ss24214859)
+* GitHub: [Mohamed Shaaban](https://github.com/Mohamed-Shaaban-cs)
 
 ---
 
